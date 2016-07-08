@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$("h2.experience").click(function(){
+		$("div.experience").toggle(1000);
+	});
+	$("h2.skills").click(function(){
+		$("div.skills").toggle(1000);
+	});
+	$("h2.education").click(function(){
+		$("div.education").toggle(1000);
+	});
+});
