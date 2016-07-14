@@ -4,6 +4,8 @@ body {
 	margin: 2rem;
 	color: #EDE4EA;
 	font: 16px Helvetica, sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 
@@ -16,6 +18,31 @@ img {
   	border-style: solid;
   	border-color: #ecf0f1;
 
+}
+
+h1{
+	text-align: center;
+}
+
+.parent{
+	display: flex;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.left-div{
+	display: inline-block;
+	width: 40%;
+	
+}
+
+.right-div{
+flex: 1;
+}
+
+.data{
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 span.pink {
